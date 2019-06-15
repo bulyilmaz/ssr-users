@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "node server.js",
+    "build": "./node_modules/next/dist/bin/next build",
+    "start": "NODE_ENV=production node server.js",
+    "heroku-postbuild": "./node_modules/next/dist/bin/next build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^8.1.0",
+    "next-offline": "^4.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
