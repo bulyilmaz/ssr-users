@@ -1,4 +1,4 @@
-cd /path/to/example-059
+cd /path/to/ssr-users
 
 npm install
 
